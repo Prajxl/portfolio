@@ -12,7 +12,7 @@ const Contact = () => {
 
   // Initialize EmailJS with your public key
   useEffect(() => {
-    emailjs.init('oB1t1Cdl53tkkIyqn');
+    emailjs.init('UggSmFQDhHJsTzAB-');
   }, []);
 
   const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -29,8 +29,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_n25dt9o',
-        'template_utt0vni',
+        'service_2fka3q7',
+        'template_4t7eca8',
         {
           from_name: form.name,
           to_name: 'Prajwal K',
@@ -55,7 +55,7 @@ const Contact = () => {
               email: '',
               message: '',
             });
-          }, [3000]);
+          }, 3000);
         },
         (error) => {
           setLoading(false);
