@@ -122,7 +122,7 @@ const Navbar = () => {
                                 href="/" 
                                 className='text-white font-logo text-xl hover:text-orange-400 transition-colors flex items-center'
                             > 
-                                Vadiraj Joshi - Portfolio
+                                Prajwal K - Portfolio
                             </a>
                             <button 
                                 onClick={toggleMenu} 
